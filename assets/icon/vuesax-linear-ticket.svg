@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_linear_ticket" data-name="vuesax/linear/ticket" transform="translate(-492 -572)">
+    <g id="ticket">
+      <path id="Vector" d="M17.5,8.5A2.5,2.5,0,0,1,20,6V5c0-4-1-5-5-5H5C1,0,0,1,0,5v.5A2.5,2.5,0,0,1,2.5,8,2.5,2.5,0,0,1,0,10.5V11c0,4,1,5,5,5H15c4,0,5-1,5-5A2.5,2.5,0,0,1,17.5,8.5Z" transform="translate(494 576)" fill="none" stroke="#002550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0V16" transform="translate(502 576)" fill="none" stroke="#002550" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="5 5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(492 572)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

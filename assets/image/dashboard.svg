@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_linear_driver" data-name="vuesax/linear/driver" transform="translate(-108 -252)">
+    <g id="driver">
+      <path id="Vector" d="M17.31,7.99H2.68A2.687,2.687,0,0,1,0,5.31V2.68A2.687,2.687,0,0,1,2.68,0H17.31a2.687,2.687,0,0,1,2.68,2.68V5.31A2.693,2.693,0,0,1,17.31,7.99Z" transform="translate(110.01 254.01)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M17.31,7.99H2.68A2.687,2.687,0,0,1,0,5.31V2.68A2.687,2.687,0,0,1,2.68,0H17.31a2.687,2.687,0,0,1,2.68,2.68V5.31A2.693,2.693,0,0,1,17.31,7.99Z" transform="translate(110.01 266.01)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0V2" transform="translate(114 257)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0V2" transform="translate(118 257)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0V2" transform="translate(114 269)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0V2" transform="translate(118 269)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H4" transform="translate(122 258)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-8" data-name="Vector" d="M0,0H4" transform="translate(122 270)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-9" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(108 252)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
