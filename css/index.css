@@ -1,0 +1,607 @@
+header {
+    background-color: var(--background);
+    box-shadow: 0 3px 2px -1px rgb(0 0 0 / 0.1);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.burger_menu {
+    background-color: var(--c500);
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    /* display: none; */
+    transform: translateX(2000px);
+    transition: all ease .8s;
+}
+
+.burger_menu img {
+    width: 35px;
+    cursor: pointer;
+}
+
+.burger_menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+}
+
+.burger_menu ul li {
+    color: var(--textwhite);
+    font-family: iransansB;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.burger_menu ul li:hover {
+    border-right: solid 3px var(--c800);
+    background-color: var(--c600);
+    border-radius: 4px 0 0 4px;
+}
+
+
+header .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 25%;
+    gap: 8px;
+}
+
+header .logo img { 
+    width: 40%;
+}
+
+header .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+header .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+header .menu ul li {
+    font-family: iransansB;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+header .menu ul li:hover {
+    color: var(--c500);
+}
+
+header .btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 25%;
+    gap: 8px;
+}
+
+header .btn a {
+    text-decoration: none;
+    color: var(--textwhite);
+    background-color: var(--c500);
+    padding: 8px 16px;
+    font-size: .9rem;
+    border-radius: 8px;
+    transition: all ease .2s;
+}
+
+header .btn a:hover {
+    background-color: var(--c600);
+}
+
+.burger_menu_btn {
+    background-color: var(--c500);
+    width: 35px !important;
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all ease .2s;
+    display: none;
+}
+
+.burger_menu_btn:hover {
+    background-color: var(--c600);
+}
+
+
+
+
+
+
+.container main .info {
+    margin: 64px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container main .info .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.container main .info .content h2 {
+    font-size: 2rem;
+    font-family: iransansB;
+    color: var(--c500);
+    margin-bottom: 8px;
+}
+
+.container main .info .content p {
+    color: var(--text);
+}
+
+.container main .info .img {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+
+.container main .info .img img {
+    width: 80%;
+}
+
+
+
+
+
+.container main .iconbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.container main .iconbox .box {
+    width: 22%;
+    background-color: var(--background);
+    box-shadow: 3px 5px 10px #0000001f;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+.container main .iconbox .box:hover {
+    background-color: var(--c100);
+}
+
+.container main .iconbox .box img {
+    width: 60%;
+}
+
+.container main .iconbox .box p {
+    font-size: 1.1rem;
+    font-family: iransansB;
+}
+
+
+
+
+
+
+
+
+.container main .course .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.container main .course .title .right_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px;
+}
+
+.container main .course .title .right_sec img {
+    width: 30px;
+}
+
+.container main .course .title .right_sec p {
+    font-size: 1.2rem;
+    font-family: iransansB;
+}
+
+.container main .course .title .left_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px;
+}
+
+.container main .course .title .left_sec p {
+    font-size: 1.2rem;
+    font-family: iransansB;
+}
+
+.container main .course .title .left_sec img {
+    width: 30px;
+}
+
+
+
+
+
+.container main .course .coursebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.container main .course .coursebox .box {
+    background-color: var(--background);
+    box-shadow: 3px 3px 3px #0000001f;
+    width: 23%;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.container main .course .coursebox .box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container main .course .coursebox .box h3 {
+    font-size: 1.1rem;
+    margin: 4px 16px;
+}
+
+.container main .course .coursebox .box p {
+    font-size: .8rem;
+    margin: 4px 16px;
+
+
+}
+
+.container main .course .coursebox .box .courseinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.container main .course .coursebox .box .courseinfo .time {
+    background-color: #E3E6EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.container main .course .coursebox .box .courseinfo .time img {
+    width: 20px;
+}
+
+.container main .course .coursebox .box .courseinfo .time span {
+    font-size: .8rem;
+    color: #8392AD;
+    height: fit-content;
+}
+
+.container main .course .coursebox .box .courseinfo .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.container main .course .coursebox .box .courseinfo .price p {
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: iransansB;
+}
+
+.container main .course .coursebox .box .courseinfo .price #tooman {
+    font-size: .9rem;
+    font-family: iransans;
+}
+
+.container main .course .coursebox .box .button {
+    background-color: var(--c500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease .2s;
+    padding: 4px 0;
+}
+
+.container main .course .coursebox .box .button:hover {
+    background-color: var(--c600);
+}
+
+.container main .course .coursebox .box .button p {
+    color: var(--textwhite);
+    font-size: 1rem;
+}
+
+.container main .course .coursebox .box .button img {
+    width: 25px;
+}
+
+
+
+
+
+
+
+.container main .blogs {
+    margin-top: 64px;
+}
+
+.container main .blogs .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.container main .blogs .title .right_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px;
+}
+
+.container main .blogs .title .right_sec img {
+    width: 30px;
+}
+
+.container main .blogs .title .right_sec span {
+    font-size: 1.2rem;
+    font-family: iransansB;
+}
+
+.container main .blogs .title .left_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px;
+}
+
+.container main .blogs .title .left_sec span {
+    font-size: 1.2rem;
+    font-family: iransansB;
+}
+
+.container main .blogs .title .left_sec img {
+    width: 30px;
+}
+
+
+
+
+
+
+.container main .blogs .blogbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container main .blogs .blogbox .blog {
+    background-color: var(--background);
+    box-shadow: 3px 3px 3px #0000001f;
+    width: 32.33%;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.container main .blogs .blogbox .blog img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container main .blogs .blogbox .blog h3 {
+    font-size: 1.2rem;
+    margin: 4px 16px;
+}
+
+.container main .blogs .blogbox .blog p {
+    font-size: .9rem;
+    margin: 4px 16px;
+}
+
+.container main .blogs .blogbox .blog a {
+    margin-top: 8px;
+    text-decoration: none;
+    color: var(--c500);
+    background-color: var(--c100);
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 0;
+    transition: all ease .2s;
+    font-size: 14px;
+    display: block;
+}
+
+
+.container main .blogs .blogbox .blog a:hover {
+    background-color: var(--c500);
+    color: white;
+}
+
+
+
+
+
+
+footer {
+    height: 300px;
+    background-color: #ffffff;
+    padding: 16px 32px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
+}
+
+footer .about_us h3 {
+    color: var(--c500);
+    font-family: iransansB;
+    font-size: 2rem;
+}
+
+footer .about_us {
+    height: 167px;
+}
+
+footer .about_us p {
+    max-width: 500px;
+}
+
+footer .useful_links {
+    width: 200px;
+}
+
+footer .useful_links span {
+    font-family: iransansB;
+    font-size: 1.2rem;
+}
+
+footer .useful_links ul {
+    list-style: square;
+    padding-right: 30px;
+}
+
+footer .useful_links ul li {
+    transition: all ease .1s;
+}
+
+footer .useful_links ul li:hover {
+    cursor: pointer;
+    color: var(--c600);
+}
+
+
+footer .useful_links ul a {
+    transition: all ease .1s;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .useful_links ul li a:hover {
+    cursor: pointer;
+    color: var(--c600);
+}
+
+footer .simple_contact {
+    width: 200px;
+    height: 167px;
+}
+
+footer .simple_contact span {
+    font-family: iransansB;
+    font-size: 1.2rem;
+}
+
+footer .simple_contact ul {
+    list-style: square;
+    padding-right: 30px;
+}
+
+footer .simple_contact ul li {
+    transition: all ease .1s;
+}
+
+footer .simple_contact ul li:hover {
+    cursor: pointer;
+    color: var(--c600);
+}
+
+footer .simple_contact ul a {
+    transition: all ease .1s;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .simple_contact ul li a:hover {
+    cursor: pointer;
+    color: var(--c600);
+}
+
+footer .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer .links a {
+
+}
+
+footer .links a img {
+    width: 35px;
+    height: 35px;
+    background-color: var(--c100);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+footer .links a img {
+    width: 35px;
+    height: 35px;
+    background-color: var(--c100);
+    padding: 4px;
+    border-radius: 8px;
+    transition: all ease .2s;
+}
+
+footer .links a img:hover {
+    background-color: var(--c200);
+}
+
+
+.rights {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 0 -3px 6px #00000011;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights span a {
+    text-decoration: none;
+    color: var(--c500);
+    font-family: iransansB;
+}
