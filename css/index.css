@@ -12,7 +12,7 @@ header {
     background-color: var(--c500);
     width: 50vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 16px;
