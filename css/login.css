@@ -1,0 +1,200 @@
+.con {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con .login_sec {
+    background-color: var(--background);
+    width: 450px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #00000015;
+    padding: 32px;
+}
+
+.con .login_sec .logo {
+    width: 250px;
+}
+
+.con .login_sec form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.con .login_sec form .username {
+    width: 100%;
+    position: relative;
+}
+
+.con .login_sec form .username label {
+    font-size: .95rem;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+
+.con .login_sec form .username input {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding-right: 80px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px #0000001f;
+    transition: all ease .2s;
+}
+
+.con .login_sec form .username input:focus {
+    box-shadow: 1px 1px 10px #00000021;
+}
+
+.con .login_sec form .password {
+    width: 100%;
+    position: relative;
+}
+
+.con .login_sec form .password label {
+    font-size: .95rem;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+
+.con .login_sec form .password input {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding-right: 80px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px #0000001a;
+    transition: all ease .2s;
+}
+
+.con .login_sec form .password input:focus {
+    box-shadow: 1px 1px 10px #00000021;
+}
+
+.con .login_sec form .password img {
+    width: 30px;
+    background-color: var(--c100);
+    padding: 2.5px;
+    border-radius: 4px;
+    position: absolute;
+    left: 8px;
+    top: 7.5px;
+    cursor: pointer;
+}
+
+.con .login_sec form input[type="button"] {
+    background-color: var(--c500);
+    color: var(--textwhite);
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login_with {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--background);
+    box-shadow: 1px 1px 4px #0000001a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.google {
+    margin-top: 32px;
+}
+
+.github {
+    margin-top: 16px;
+}
+
+.login_with img {
+    width: 30px;
+}
+
+.forget_password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    padding: 0 16px 0 44px;
+}
+
+.forget_password p,
+a {
+    font-size: .9rem;
+    color: var(--c500);
+    cursor: pointer;
+    position: relative;
+}
+
+.forget_password p input {
+    position: absolute;
+    top: -12px;
+    left: -24px;
+    opacity: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 20px;
+    z-index: 2;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: -28px;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #eee;
+}
+
+.forget_password p input:hover~.checkmark {
+    background-color: #ccc;
+}
+
+.forget_password p input:checked~.checkmark {
+    background-color: #8B5CEB;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.forget_password p input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
