@@ -8,8 +8,8 @@
 
 .con .login_sec {
     background-color: var(--background);
-    width: 450px;
-    height: 500px;
+    min-width: 50%;
+    height: fit-content;
     border-radius: 8px;
     box-shadow: 3px 3px 3px #00000015;
     padding: 32px;
